@@ -1,0 +1,81 @@
+{
+  "config": "{\"version\":\"5.55\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU06\",\"version\":\"5.55\",\"type\":2},\"customTheme\":{\"name\":\"Accessible_Neutral7374245425546317.json\",\"version\":\"5.55\",\"type\":1}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "pods": [
+    {
+      "boundSection": "eade1dc09d0d2394cc57",
+      "config": "{\"acceptsFilterContext\":1}",
+      "name": "5e4fc9f54481b1039863"
+    }
+  ],
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU06",
+            "path": "BaseThemes/CY24SU06.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    },
+    {
+      "resourcePackage": {
+        "items": [
+          {
+            "name": "Accessible_Neutral7374245425546317.json",
+            "path": "Accessible_Neutral7374245425546317.json",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#DF848A'\"}}}}}}}]}}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "eade1dc09d0d2394cc57",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"89df6ad8408138521247\",\"layouts\":[{\"id\":0,\"position\":{\"x\":1004,\"y\":137,\"width\":276,\"height\":524,\"z\":2000,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 524.00,
+          "width": 276.00,
+          "x": 1004.00,
+          "y": 137.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"f315082cc5de8e22a262\",\"layouts\":[{\"id\":0,\"position\":{\"x\":323.8432804569591,\"y\":137.22172900718607,\"z\":0,\"width\":669.642037555068,\"height\":524.1870048074508,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"zomato_restaurants_in_India.city\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(zomato_restaurants_in_India.delivery)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"z\",\"Entity\":\"zomato_restaurants_in_India\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"z\"}},\"Property\":\"city\"},\"Name\":\"zomato_restaurants_in_India.city\",\"NativeReferenceName\":\"city\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"z\"}},\"Property\":\"delivery\"}},\"Function\":0},\"Name\":\"Sum(zomato_restaurants_in_India.delivery)\",\"NativeReferenceName\":\"Sum of delivery\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"z\"}},\"Property\":\"delivery\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 524.19,
+          "width": 669.64,
+          "x": 323.84,
+          "y": 137.22,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"f65d151ccbc264eebcc7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":137,\"width\":670,\"height\":524,\"z\":1000,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"hey hello hi working with you dude stop it c2\",\"textStyle\":{\"fontSize\":\"40pt\"}}]},{\"textRuns\":[{\"value\":\"\"}]}]}}]}}}",
+          "filters": "[]",
+          "height": 524.00,
+          "width": 670.00,
+          "x": 0.00,
+          "y": 137.00,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ],
+  "theme": "Accessible_Neutral7374245425546317.json"
+}

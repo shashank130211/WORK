@@ -1,0 +1,8 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../shah_dev_powerbi_report.SemanticModel"
+    }
+  }
+}
