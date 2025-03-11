@@ -1,0 +1,19 @@
+table 'HTML Code'
+	lineageTag: 64d22970-272c-4267-a82b-e36cc15b7311
+
+	column 'HTML Code'
+		dataType: string
+		lineageTag: a0fb08bd-eff9-47dd-9b23-a102e15cd766
+		summarizeBy: none
+		sourceColumn: HTML Code
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'HTML Code' = m
+		mode: import
+		source = Web.BrowserContents("https://teams.microsoft.com/l/message/19:425e47e4-e3b2-4abd-9154-af9777280a0a_93eaaee4-3deb-4769-a067-1f06bfc699d1@unq.gbl.spaces/1741609541003?context=%7B%22contextType%22%3A%22chat%22%7D")
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+
